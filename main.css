@@ -1,0 +1,115 @@
+
+/* Global Styling */
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    font-size: 62.5%;
+}
+
+p {
+    color: black;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.divider {
+margin-top: 5rem;
+border: 1px solid green;
+}
+
+/* Header & Nav */
+
+.navbar {
+    background:#6ab446;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 2em;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Hero section */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.description h1 {
+    font-size: 6rem;
+    color: black;
+    margin-bottom: 2rem;
+    animation: stretch 1s ease-out 0s alternate none running;
+    text-align: center;
+}
+
+.description button {
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 0;
+    color:#fff;
+}
+
+.description button:hover {
+    border:1px solid #fff;
+    background:rgb(191, 191, 36);
+    color:#000;
+}
+
+/* Features */
+
+.features {
+    padding-top: 4em;
+    position: relative;
+}
+
+.feature-title {
+    color: green;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Contact */
+
+#contact {
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    } 
+
+/* Animations */
+
+@keyframes stretch {
+  0% {
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
